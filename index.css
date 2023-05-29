@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.text{
+    padding: 10px 0px;
+}
+.logo img{
+    width: 3rem;
+    border-radius: 50%;
+}
+
+#nav-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 50px;
+    
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, .30);
+    
+}
+
+.options ul{
+    list-style: none;
+    padding-right: 100px;
+}
+
+.options ul li{
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 10px;
+    transition:all 0.3s ease;
+}
+
+.options ul li a{
+    text-decoration: none;
+}
+
+.options ul li:hover{
+    background-color: rgb(232, 232, 180);
+    cursor: pointer;
+    outline: 1px solid black;
+    
+}
+
+
+
+.front {
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img1a{
+    width: 500px;
+    border-radius: 20px;
+}
+.heading{
+    margin-top: 80px;
+}
+
+.planning {
+    color: red;
+    font-size: xx-large;
+}
+
+.sol{
+    background-color:rgb(232, 232, 180); 
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.start{
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    border-top: 1px solid white;
+}
+
+.start p{
+    line-height: 35px;
+    word-spacing: 3px;
+    
+}
+
+.analysis1{
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    border-top: 1px solid white;
+    
+}
+
+.analysis{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.analysis img{
+    transition: all 0.3s ease;
+    width: 500px;
+    padding: 20px 5px;
+
+}
+.analysis img:hover{
+    cursor: pointer;
+    width: 700px;
+}
+
+.analysis p{
+    padding: 80px 5px;
+}
+
+.foot{
+    width: 100%;
+    margin: auto;
+    padding: 3px;
+    background-color: rgba(0, 0, 0, 1);
+
+    
+}
+.foot h6{
+    font-weight: 200;
+    color: white;
+    text-align: center;
+}
+.foot p{
+    font-size: 10px;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+
+
